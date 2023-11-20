@@ -32,6 +32,11 @@ DEBUG = False
 ALLOWED_HOSTS = ['.accountsmonitor.co.ke', '.vercel.app', 'localhost' , '*']
 
 
+
+CORS_ORIGIN_ALLOW_ALL =True
+
+CORS_ALLOW_CREDENTIALS = True
+
 # Application definition
 
 INSTALLED_APPS = [
